@@ -20,9 +20,48 @@
           ><i class="fa-solid fa-arrow-left arrow-icon"></i>back</a
         >
         <!-- poner toda la funcionalidad del carrito en el siguiente div -->
-        <div class="shopping-cart">
+        <!-- <div class="shopping-cart">
           <i class="fa-solid fa-cart-shopping"></i>
+        </div> -->
+        <div class="container-icon">
+          <div class="container-cart-icon">
+            <i class="fa-solid fa-cart-shopping shopping-cart"></i>
+            <div class="count-products">
+              <span id="contador-productos">0</span>
+            </div>
+          </div>
+          <div class="container-cart-products hidden-cart">
+            <div class="row-product">
+              <div class="cart-product">
+                <div class="info-cart-product">
+                  <span class="cantidad-producto-carrito">1</span>
+                  <p class="titulo-producto-carrito">Wolverine</p>
+                  <span class="precio-producto-carrito">$80</span>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon-close"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="cart-total">
+              <h3>Total:</h3>
+              <span class="total-pagar">$0</span>
+            </div>
+            <p class="cart-empty">El carrito está vacio</p>
+          </div>
         </div>
+
         <!-- final funcionalidad -->
       </header>
       <div class="products-container">
@@ -36,8 +75,8 @@
                 alt="guante-thanos"
               />
             </div>
-            <h3 class="product-name-2">Guante de thanos</h3>
-            <h4 class="product-price-2">$20</h4>
+            <h2 class="product-name-2">Guante de thanos</h2>
+            <p class="product-price-2">$20</p>
           </div>
           <button class="btn add-shopping-btn">add to cart</button>
         </article>
@@ -52,8 +91,8 @@
                 alt="wolverine"
               />
             </div>
-            <h3 class="product-name-2">wolverine</h3>
-            <h4 class="product-price-2">$26</h4>
+            <h2 class="product-name-2">wolverine</h2>
+            <p class="product-price-2">$26</p>
           </div>
           <button class="btn add-shopping-btn">add to cart</button>
         </article>
@@ -68,8 +107,8 @@
                 alt="spiderman-box"
               />
             </div>
-            <h3 class="product-name-2">spider-man</h3>
-            <h4 class="product-price-2">$26</h4>
+            <h2 class="product-name-2">spider-man</h2>
+            <p class="product-price-2">$26</p>
           </div>
           <button class="btn add-shopping-btn">add to cart</button>
         </article>
@@ -84,8 +123,8 @@
                 alt="deadpool"
               />
             </div>
-            <h3 class="product-name-2">Deadpool</h3>
-            <h4 class="product-price-2">$26</h4>
+            <h2 class="product-name-2">Deadpool</h2>
+            <p class="product-price-2">$26</p>
           </div>
           <button class="btn add-shopping-btn">add to cart</button>
         </article>
@@ -100,8 +139,8 @@
                 alt="black-panther"
               />
             </div>
-            <h3 class="product-name-2">Blackpanther</h3>
-            <h4 class="product-price-2">$26</h4>
+            <h2 class="product-name-2">Blackpanther</h2>
+            <p class="product-price-2">$26</p>
           </div>
           <button class="btn add-shopping-btn">add to cart</button>
         </article>
@@ -117,6 +156,7 @@
           <a href=""><i class="fa-brands fa-twitter icon"></i></a>
         </div>
       </div>
+      <script src="./app.js"></script>
     </footer>
   </body>
 </html>
