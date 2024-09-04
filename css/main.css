@@ -29,6 +29,12 @@
   color: white;
   text-decoration: none;
 }
+@media screen and (min-width: 320px) {
+  .shop-link {
+    color: white;
+    text-decoration: none;
+  }
+}
 
 :root {
   font-size: 16px;
