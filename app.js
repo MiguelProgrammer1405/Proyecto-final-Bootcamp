@@ -66,7 +66,6 @@ rowProduct.addEventListener("click", (e) => {
 });
 
 const showHTML = () => {
-  console.log(allProducts.length);
   if (!allProducts.length) {
     cartEmpty.classList.remove("hidden");
     rowProduct.classList.add("hidden");
@@ -114,3 +113,5 @@ const showHTML = () => {
   valorTotal.innerText = `$${total}`;
   countProducts.innerText = totalOfProducts;
 };
+
+window.addEventListener("DOMContentLoaded", showHTML);

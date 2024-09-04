@@ -25,6 +25,11 @@
   display: inline-block;
 }
 
+.shop-link {
+  color: white;
+  text-decoration: none;
+}
+
 :root {
   font-size: 16px;
   /* colors */
